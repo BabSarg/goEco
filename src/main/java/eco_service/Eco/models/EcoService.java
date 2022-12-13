@@ -12,7 +12,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Data
 @Builder
-@Table(name = "eco_service",schema = "public")
+@Table(name = "eco_service",schema = "heroku_d5cce69b7d2eea9")
 public class EcoService {
 
     @Id

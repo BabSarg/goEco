@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Data
 @Builder
-@Table(name = "order",schema = "public")
+@Table(name = "order",schema = "heroku_d5cce69b7d2eea9")
 public class Order {
 
     @Id

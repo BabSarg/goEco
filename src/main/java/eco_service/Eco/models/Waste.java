@@ -13,7 +13,7 @@ import java.util.List;
 @NoArgsConstructor
 @Data
 @Builder
-@Table(name = "waste",schema = "public")
+@Table(name = "waste",schema = "heroku_d5cce69b7d2eea9")
 public class Waste {
 
     @Id
