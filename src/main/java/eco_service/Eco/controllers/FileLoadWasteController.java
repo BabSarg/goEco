@@ -19,5 +19,6 @@ public class FileLoadWasteController {
     public @ResponseBody byte[] getImageWithMediaType(@PathVariable("photoId")String photoId) throws IOException {
         BufferedInputStream inputStream = new BufferedInputStream(new FileInputStream("C:\\Users\\Babken_Sargsyan\\Desktop\\Eco\\Eco\\images\\waste\\" + photoId));
         return inputStream.readAllBytes();
+
     }
 }
